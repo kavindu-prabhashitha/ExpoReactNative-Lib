@@ -14,7 +14,7 @@ export default function App() {
       <Drawer.Navigator initialRouteName="Home">
         <Drawer.Screen name="Home" component={HomeScreen} />
         <Drawer.Screen name="Notifications" component={NotificationsScreen} />
-        <Drawer.Screen name="BisoBookDetailView" component={BookDetailScreen} />
+        <Drawer.Screen name="BookDetailView" component={BookDetailScreen} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
